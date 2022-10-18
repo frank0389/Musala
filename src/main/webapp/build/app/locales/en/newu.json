@@ -1,0 +1,16 @@
+{
+  "userName": "Username",
+  "firstName": "FirstName",
+  "name": "Name",
+  "lastName":"LastName",
+  "emailAddress":"Email",
+  "roles":"Roles", 
+  "language": "Language",
+  "errorMessage": "Ups!. An error has been occurred!.",
+  "successMessage": "The user was added successfully!!",
+  "cancelButtonText":"Cancel",
+  "acceptButtonText":"Accept",
+  "requiredError": "This field is required!",
+  "invalidEmail": "Invalid email!!",
+  "title": "Append user"
+}

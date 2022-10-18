@@ -1,0 +1,32 @@
+version: '2.4'
+services:
+  db:
+    restart: always
+    image: percona/percona-server:${MYSQL_TAG}
+    container_name: db
+    logging:
+  #      driver: none
+         driver: "json-file"
+         options:
+             max-size: "10m"
+             max-file: "10"
+  #  command: 
+    environment:
+      MYSQL_ROOT_PASSWORD: ${ROOT_PASSWORD}
+    ports:
+      - '3306:3306'
+    volumes:
+      - ./mysql/data:/var/lib/mysql
+      - ./mysql/conf/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./mysql/scripts:/docker-entrypoint-initdb.d
+    ulimits:
+      nofile:
+        soft: 20000
+        hard: 40000
+    command: [--ssl=0]
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-utest", "-pgateway*2022"]
+      interval: 30s
+      timeout: 60s
+      retries: 5
+      start_period: 80s

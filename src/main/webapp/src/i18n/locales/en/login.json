@@ -1,0 +1,15 @@
+{
+    "title": "Welcome to {{ appName }}",
+    "email": "Email Address",
+    "password": "Password",
+    "userName":"UserName",
+    "rememberMe": "Remember me on this computer",
+    "signIn": "SING IN",
+    "forgotPassword": "Forgot password?",
+    "accountQuestion": "Don't have an account? ",
+    "signUp":"Sign Up",
+    "authError": "Failed to sign in!.",
+    "requiredError": "This field is requiered!",
+    "invalidPassword": "Invalid Password!",
+    "invalidEmail": "Invalid email!"
+}

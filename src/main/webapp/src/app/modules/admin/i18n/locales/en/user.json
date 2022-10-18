@@ -1,0 +1,13 @@
+{
+    "add":"Append",
+    "column.user": "Username",
+    "column.firstName": "FirstName",
+    "column.lastName":"LastName",
+    "column.email":"Email",
+    "column.roles":"Roles",
+    "column.actions":"Actions",
+    "cancelButtonText":"Cancel",
+    "acceptButtonText":"Accept",
+    "confirmDialogTitle":"Delete user",
+    "confirmDialogDescription":"Are you sure you want to delete the selected user?"
+  }

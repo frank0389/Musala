@@ -1,0 +1,6 @@
+{
+  "placeholder": "Filter by" ,
+  "dialog.title": "Select filter column",
+  "dialog.acceptButtonText": "Accept",
+  "dialog.cancelButtonText":"Cancel"
+}

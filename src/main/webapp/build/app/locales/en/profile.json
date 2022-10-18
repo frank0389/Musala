@@ -1,0 +1,20 @@
+{
+  "firstName": "FirstName",
+  "lastName": "LastName",
+  "emailAddress": "Email",
+  "updating": "Updating ...",
+  "profile": "Profile",
+  "edit": "Edit Profile",
+  "pwd": "Password",
+  "currentPwd": "Current password",
+  "newPwd": "New password",
+  "title": "User profile",
+  "createDate": "Create date",
+  "lastModifiedDate": "Last modified date",
+  "updateProfileError": "Update profile failure",
+  "updateProfileSuccess": "Profile was update successfully",
+  "requiredError": "This field is requiered!",
+  "invalidPwdError": "Invalid password!",
+  "invalidEmail": "Invalid email!",
+  "updateButtonText": "Update"
+}
